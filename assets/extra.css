@@ -1,0 +1,89 @@
+/* Logo */
+.md-header__button.md-logo {
+  padding: 0;
+}
+.md-header__button.md-logo img {
+  height: 36px;
+}
+
+/* Pied de page (copyright) masqué ; les liens Précédent / Suivant restent affichés */
+.md-footer-meta__inner {
+  display: none;
+}
+
+/* Couleurs TGR */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #C8590A;
+  --md-primary-fg-color--light: #E07A33;
+  --md-primary-fg-color--dark: #8B3A05;
+  --md-accent-fg-color: #E8742A;
+  --md-accent-fg-color--transparent: rgba(232, 116, 42, 0.1);
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #C8590A;
+  --md-primary-fg-color--light: #E07A33;
+  --md-primary-fg-color--dark: #8B3A05;
+  --md-accent-fg-color: #F09A5E;
+  --md-accent-fg-color--transparent: rgba(240, 154, 94, 0.1);
+  --md-typeset-a-color: #F09A5E;
+}
+
+/* Captures d'écran */
+.md-typeset figure img {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.md-typeset figcaption {
+  font-family: var(--md-code-font-family);
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+[data-md-color-scheme="slate"] .md-typeset figure img {
+  filter: brightness(0.92);
+}
+
+/* Étapes */
+.md-typeset h2[id^="etape-"],
+.md-typeset h2[id^="r"],
+.md-typeset h2[id^="dep-"] {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  padding-top: 1.2rem;
+}
+
+/* Badge « Facultatif » */
+.badge-opt {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 1rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Boutons de téléchargement : nom de fichier en police fixe */
+.md-typeset .md-button.dl {
+  font-family: var(--md-code-font-family);
+  font-size: 0.72rem;
+  word-break: break-all;
+}
+
+/* Tableau des options Java */
+.md-typeset .opt-on {
+  color: #2E7D32;
+  font-weight: 700;
+}
+.md-typeset .opt-off {
+  color: #B23A2B;
+  font-weight: 700;
+}
+[data-md-color-scheme="slate"] .md-typeset .opt-on {
+  color: #7CC77F;
+}
+[data-md-color-scheme="slate"] .md-typeset .opt-off {
+  color: #F08A7E;
+}
