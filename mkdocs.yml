@@ -1,0 +1,75 @@
+site_name: "Guide d'utilisation INDIM@J"
+site_description: "Installation du poste, renouvellement du certificat et dépannage pour INDIM@J"
+
+nav:
+  - Accueil: index.md
+  - Installation du poste:
+      - Introduction: installation/index.md
+      - "Phase 1 — Navigateurs": installation/navigateurs/index.md
+      - "Phase 2 — Certificat": installation/certificat/index.md
+      - "Phase 3 — Java": installation/java/index.md
+      - "Phase 4 — Finalisation de Firefox": installation/finalisation-firefox/index.md
+      - Vérification finale: installation/verification/index.md
+  - Renouvellement du certificat: renouvellement/index.md
+  - Dépannage: depannage/index.md
+
+extra_css:
+  - assets/extra.css
+
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+  language: fr
+  features:
+    - content.code.copy
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - search.highlight
+  palette:
+    # Thème automatique : suit le réglage clair / sombre du système
+    - media: "(prefers-color-scheme)"
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-auto
+        name: Passer en mode clair
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Suivre le thème du système
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search:
+      lang: fr
+  - glightbox
