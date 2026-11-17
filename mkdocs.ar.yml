@@ -1,0 +1,80 @@
+# Version arabe du guide, publiée dans le sous-dossier /ar/ du site.
+# Elle reprend les réglages de mkdocs.yml et ne redéfinit que ce qui change.
+# Les captures d'écran, les guides PDF et la feuille de style commune sont
+# repris de docs/ par le hook hooks/fichiers_partages.py.
+INHERIT: mkdocs.yml
+
+site_name: "دليل استعمال INDIM@J"
+site_description: "إعداد الحاسوب، وتجديد الشهادة، والمصادقة الثنائية (MFA)، وحل المشاكل في INDIM@J"
+site_url: https://marshalm89.github.io/guide-indimaj/ar/
+docs_dir: docs-ar
+site_dir: site/ar
+
+nav:
+  - الرئيسية: index.md
+  - إعداد الحاسوب:
+      - مقدمة: installation/index.md
+      - "المرحلة 1 — المتصفحات": installation/navigateurs/index.md
+      - "المرحلة 2 — الشهادة": installation/certificat/index.md
+      - "المرحلة 3 — Java": installation/java/index.md
+      - "المرحلة 4 — إتمام إعداد Firefox": installation/finalisation-firefox/index.md
+      - التحقق النهائي: installation/verification/index.md
+  - تجديد الشهادة: renouvellement/index.md
+  - المصادقة الثنائية (MFA):
+      - تقديم: mfa/index.md
+      - "الخطوة 1 — تثبيت التطبيق": mfa/installer/index.md
+      - "الخطوتان 2 و 3 — التفعيل": mfa/activation/index.md
+      - الدخول اليومي: mfa/connexion/index.md
+      - في حالة وجود مشكل: mfa/assistance/index.md
+      - أسئلة شائعة: mfa/faq/index.md
+  - حل المشاكل: depannage/index.md
+
+extra_css:
+  - assets/extra.css
+  - assets/extra-ar.css
+
+theme:
+  language: ar
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-auto
+        name: التبديل إلى الوضع الفاتح
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: التبديل إلى الوضع الداكن
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: اتباع وضع النظام
+
+# Bouton de langue : le lien français remonte à la racine du site
+extra:
+  alternate:
+    - name: Français
+      link: ../
+      lang: fr
+    - name: العربية
+      link: ./
+      lang: ar
+
+plugins:
+  - search:
+      lang: ar
+  - glightbox
+
+hooks:
+  - hooks/fichiers_partages.py
+
+# Recharge l'aperçu local quand une capture ou un PDF change dans docs/
+watch:
+  - docs

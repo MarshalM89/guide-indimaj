@@ -1,5 +1,6 @@
 site_name: "Guide d'utilisation INDIM@J"
-site_description: "Installation du poste, renouvellement du certificat et dépannage pour INDIM@J"
+site_description: "Installation du poste, renouvellement du certificat, double authentification (MFA) et dépannage pour INDIM@J"
+site_url: https://marshalm89.github.io/guide-indimaj/
 
 nav:
   - Accueil: index.md
@@ -11,10 +12,30 @@ nav:
       - "Phase 4 — Finalisation de Firefox": installation/finalisation-firefox/index.md
       - Vérification finale: installation/verification/index.md
   - Renouvellement du certificat: renouvellement/index.md
+  - Double authentification (MFA):
+      - Présentation: mfa/index.md
+      - "Étape 1 — Installer l'application": mfa/installer/index.md
+      - "Étapes 2 et 3 — Activation": mfa/activation/index.md
+      - Se connecter au quotidien: mfa/connexion/index.md
+      - En cas de problème: mfa/assistance/index.md
+      - Questions fréquentes: mfa/faq/index.md
   - Dépannage: depannage/index.md
 
 extra_css:
   - assets/extra.css
+
+extra_javascript:
+  - assets/langue.js
+
+# Bouton de langue (en haut de page) : la version arabe est publiée dans /ar/
+extra:
+  alternate:
+    - name: Français
+      link: ./
+      lang: fr
+    - name: العربية
+      link: ./ar/
+      lang: ar
 
 theme:
   name: material
