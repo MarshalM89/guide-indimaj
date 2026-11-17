@@ -1,0 +1,40 @@
+/* Compléments de style pour la version arabe (écriture de droite à gauche).
+   La feuille commune assets/extra.css est reprise de docs/. */
+
+/* L'espacement des lettres et les majuscules cassent la liaison des lettres arabes */
+.badge-opt {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Légendes des captures : police du texte (la police à chasse fixe n'a pas de glyphes arabes) */
+.md-typeset figcaption {
+  font-family: var(--md-text-font-family);
+  font-size: 0.75rem;
+}
+
+/* Noms de fichiers, codes et adresses : toujours de gauche à droite */
+.md-typeset code,
+.md-typeset .md-button.dl {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* Encadré « بالدارجة » (explications en darija) */
+:root {
+  --md-admonition-icon--darija: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3c5.5 0 10 3.58 10 8s-4.5 8-10 8c-1.24 0-2.43-.18-3.53-.5C5.55 21 2 21 2 21c2.33-2.33 2.7-3.9 2.75-4.5C3.05 15.07 2 13.13 2 11c0-4.42 4.5-8 10-8"/></svg>');
+}
+.md-typeset .admonition.darija,
+.md-typeset details.darija {
+  border-color: #7c3aed;
+}
+.md-typeset .darija > .admonition-title,
+.md-typeset .darija > summary {
+  background-color: rgba(124, 58, 237, 0.1);
+}
+.md-typeset .darija > .admonition-title::before,
+.md-typeset .darija > summary::before {
+  background-color: #7c3aed;
+  -webkit-mask-image: var(--md-admonition-icon--darija);
+  mask-image: var(--md-admonition-icon--darija);
+}

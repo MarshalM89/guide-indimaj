@@ -1,6 +1,6 @@
 # Guide d'utilisation INDIM@J
 
-Ce guide accompagne les utilisateurs d'**INDIM@J** pour préparer leur poste de travail, renouveler leur certificat d'accès et résoudre les problèmes les plus courants.
+Ce guide accompagne les utilisateurs d'**INDIM@J** pour préparer leur poste de travail, renouveler leur certificat d'accès, activer la double authentification (MFA) et résoudre les problèmes les plus courants.
 
 !!! danger "Certificat expiré ?"
     Si Firefox affiche **« Échec de la connexion sécurisée »** avec le code `SSL_ERROR_EXPIRED_CERT_ALERT`, votre certificat a expiré. Suivez le guide [Renouvellement du certificat](renouvellement/index.md).
@@ -22,6 +22,14 @@ Ce guide accompagne les utilisateurs d'**INDIM@J** pour préparer leur poste de 
     Remplacer un certificat expiré en 7 étapes.
 
     [:octicons-arrow-right-24: Renouveler le certificat](renouvellement/index.md)
+
+-   :material-shield-key-outline:{ .lg .middle } **Double authentification (MFA)**
+
+    ---
+
+    Installer Google Authenticator, activer la MFA et se connecter avec un code à 6 chiffres.
+
+    [:octicons-arrow-right-24: Activer la MFA](mfa/index.md)
 
 -   :material-wrench-outline:{ .lg .middle } **Dépannage**
 
