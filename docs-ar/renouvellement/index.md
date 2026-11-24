@@ -13,7 +13,7 @@
 </figure>
 
 !!! danger "الرسالة التي يعرضها Firefox"
-    عند الدخول إلى INDIM@J، يعرض Firefox رسالة **« Échec de la connexion sécurisée »** مع النص *« Le pair SSL a rejeté votre certificat car celui-ci a expiré »* ورمز الخطأ `SSL_ERROR_EXPIRED_CERT_ALERT`.
+    عند الدخول إلى INDIM@J (أو إلى INDIM@J Partenaire)، يعرض Firefox رسالة **« Échec de la connexion sécurisée »** مع النص *« Le pair SSL a rejeté votre certificat car celui-ci a expiré »* ورمز الخطأ `SSL_ERROR_EXPIRED_CERT_ALERT`.
 
 !!! info "ماذا تفعل؟"
     انتهت صلاحية شهادة الولوج الخاصة بك. الضغط على «Réessayer» لا يحل المشكل: جدّد الشهادة باتباع الخطوات أسفله.

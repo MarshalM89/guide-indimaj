@@ -53,6 +53,9 @@
 3. Cliquez sur **Ajouter** et saisissez **https://indimaj.tgr.gov.ma**.
 4. Cliquez sur **OK** pour valider.
 
+!!! info "Utilisateurs d'INDIM@J Partenaire"
+    Saisissez la même adresse **https://indimaj.tgr.gov.ma** : elle couvre aussi le lien de connexion à INDIM@J Partenaire (`https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR`). Il n'est pas nécessaire d'ajouter une seconde adresse.
+
 <figure markdown="span">
   ![Site ajouté à la liste des exceptions](sites-exception-resultat.png){ width="560" }
   <figcaption>Résultat attendu : le lien apparaît dans la liste des sites avec exception</figcaption>

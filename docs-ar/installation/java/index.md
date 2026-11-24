@@ -53,6 +53,9 @@
 3. اضغط على **Ajouter** واكتب **https://indimaj.tgr.gov.ma**.
 4. اضغط على **OK** للتأكيد.
 
+!!! info "مستعملو INDIM@J Partenaire"
+    اكتب نفس العنوان **https://indimaj.tgr.gov.ma**: فهو يشمل أيضاً رابط الدخول إلى INDIM@J Partenaire (`https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR`). لا داعي لإضافة عنوان ثانٍ.
+
 <figure markdown="span">
   ![تمت إضافة الموقع إلى لائحة الاستثناءات](sites-exception-resultat.png){ width="560" }
   <figcaption>النتيجة المنتظرة: يظهر الرابط في لائحة المواقع المستثناة</figcaption>
