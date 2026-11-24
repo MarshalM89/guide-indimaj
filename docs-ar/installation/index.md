@@ -19,8 +19,11 @@
 | [المرحلة 3 — Java](java/index.md) | تثبيت Java وإعداده، واستيراد الشهادة | من 8 إلى 14 |
 | [المرحلة 4 — إتمام إعداد Firefox](finalisation-firefox/index.md) | السماح بالنوافذ المنبثقة وإضافة الاستثناءات | 15 و 16 |
 
-!!! info "مستعملو INDIM@J Partenaire"
-    إعداد الحاسوب هو نفسه بالنسبة لـ **INDIM@J Partenaire**. يختلف فقط رابط الدخول: [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
+!!! info "عناوين الدخول"
+    إعداد الحاسوب هو نفسه بالنسبة لـ INDIM@J و INDIM@J Partenaire. يختلف فقط رابط الدخول:
+
+    - **INDIM@J**: [https://indimaj.tgr.gov.ma/](https://indimaj.tgr.gov.ma/){ target="_blank" }
+    - **INDIM@J Partenaire**: [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
 
 بعد انتهاء التثبيت، تحقق من الحاسوب بواسطة [قائمة التحقق النهائي](verification/index.md).
 

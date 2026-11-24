@@ -5,8 +5,9 @@ Ce guide accompagne les utilisateurs d'**INDIM@J** pour préparer leur poste de 
 !!! danger "Certificat expiré ?"
     Si Firefox affiche **« Échec de la connexion sécurisée »** avec le code `SSL_ERROR_EXPIRED_CERT_ALERT`, votre certificat a expiré. Suivez le guide [Renouvellement du certificat](renouvellement/index.md).
 
-!!! info "Utilisateurs d'INDIM@J Partenaire"
-    Les utilisateurs d'**INDIM@J Partenaire** se connectent à l'adresse suivante : [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
+!!! info "Adresses de connexion"
+    - **INDIM@J** : [https://indimaj.tgr.gov.ma/](https://indimaj.tgr.gov.ma/){ target="_blank" }
+    - **INDIM@J Partenaire** : [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
 
 <div class="grid cards" markdown>
 
