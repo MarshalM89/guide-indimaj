@@ -38,7 +38,7 @@
 </figure>
 
 !!! success "انتهى التثبيت"
-    الحاسوب جاهز. تحقق منه بواسطة [قائمة التحقق النهائي](../verification/index.md)، ثم ادخل إلى INDIM@J عبر العنوان [https://indimaj.tgr.gov.ma/](https://indimaj.tgr.gov.ma/){ target="_blank" }. يدخل مستعملو INDIM@J Partenaire عبر العنوان [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
+    الحاسوب جاهز. تحقق منه بواسطة [قائمة التحقق النهائي](../verification/index.md)، ثم ادخل إلى INDIM@J عبر العنوان [https://indimaj.tgr.gov.ma/](https://indimaj.tgr.gov.ma/){ target="_blank" dir="ltr" }. يدخل مستعملو INDIM@J Partenaire عبر العنوان [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" dir="ltr" }
 
 !!! info "وثائق INDIM@J"
     الوثائق الكاملة للنظام متوفرة في [مجلد Google Drive الخاص بالوثائق](https://drive.google.com/drive/folders/16wpMRpNEnHUsIAdGSu--Yr3b4I3sQGaI?usp=drive_link){ target="_blank" }.

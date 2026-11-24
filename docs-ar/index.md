@@ -6,8 +6,8 @@
     إذا عرض Firefox رسالة **« Échec de la connexion sécurisée »** مع الرمز `SSL_ERROR_EXPIRED_CERT_ALERT`، فهذا يعني أن صلاحية شهادتك قد انتهت. اتبع دليل [تجديد الشهادة](renouvellement/index.md).
 
 !!! info "عناوين الدخول"
-    - **INDIM@J**: [https://indimaj.tgr.gov.ma/](https://indimaj.tgr.gov.ma/){ target="_blank" }
-    - **INDIM@J Partenaire**: [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
+    - **INDIM@J**: [https://indimaj.tgr.gov.ma/](https://indimaj.tgr.gov.ma/){ target="_blank" dir="ltr" }
+    - **INDIM@J Partenaire**: [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" dir="ltr" }
 
 <div class="grid cards" markdown>
 
