@@ -13,7 +13,7 @@ Ce guide permet de remplacer un certificat d'accès expiré, en 7 étapes.
 </figure>
 
 !!! danger "Message affiché par Firefox"
-    À la connexion à INDIM@J, Firefox affiche **« Échec de la connexion sécurisée »** avec le message *« Le pair SSL a rejeté votre certificat car celui-ci a expiré »* et le code d'erreur `SSL_ERROR_EXPIRED_CERT_ALERT`.
+    À la connexion à INDIM@J (ou à INDIM@J Partenaire), Firefox affiche **« Échec de la connexion sécurisée »** avec le message *« Le pair SSL a rejeté votre certificat car celui-ci a expiré »* et le code d'erreur `SSL_ERROR_EXPIRED_CERT_ALERT`.
 
 !!! info "Que faire"
     Votre certificat d'accès a expiré. Cliquer sur « Réessayer » ne résout pas le problème : renouvelez le certificat en suivant les étapes ci-dessous.

@@ -29,13 +29,16 @@
 3. اكتب **https://indimaj.tgr.gov.ma** ثم اضغط على **Autoriser**.
 4. اضغط على **Enregistrer les modifications**.
 
+!!! info "مستعملو INDIM@J Partenaire"
+    اكتب نفس العنوان **https://indimaj.tgr.gov.ma**: فهو يشمل أيضاً رابط الدخول إلى INDIM@J Partenaire (`https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR`). لا داعي لإضافة عنوان ثانٍ.
+
 <figure markdown="span">
   ![الموقع مسموح به](exceptions-resultat.png){ width="560" }
   <figcaption>النتيجة المنتظرة: يظهر الموقع في اللائحة بالحالة «Autoriser»</figcaption>
 </figure>
 
 !!! success "انتهى التثبيت"
-    الحاسوب جاهز. تحقق منه بواسطة [قائمة التحقق النهائي](../verification/index.md)، ثم ادخل إلى INDIM@J.
+    الحاسوب جاهز. تحقق منه بواسطة [قائمة التحقق النهائي](../verification/index.md)، ثم ادخل إلى INDIM@J. يدخل مستعملو INDIM@J Partenaire عبر العنوان [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
 
 !!! info "وثائق INDIM@J"
     الوثائق الكاملة للنظام متوفرة في [مجلد Google Drive الخاص بالوثائق](https://drive.google.com/drive/folders/16wpMRpNEnHUsIAdGSu--Yr3b4I3sQGaI?usp=drive_link){ target="_blank" }.

@@ -29,13 +29,16 @@
 3. Saisissez **https://indimaj.tgr.gov.ma** puis cliquez sur **Autoriser**.
 4. Cliquez sur **Enregistrer les modifications**.
 
+!!! info "Utilisateurs d'INDIM@J Partenaire"
+    Saisissez la même adresse **https://indimaj.tgr.gov.ma** : elle couvre aussi le lien de connexion à INDIM@J Partenaire (`https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR`). Il n'est pas nécessaire d'ajouter une seconde adresse.
+
 <figure markdown="span">
   ![Site autorisé](exceptions-resultat.png){ width="560" }
   <figcaption>Résultat attendu : le site figure dans la liste avec l'état « Autoriser »</figcaption>
 </figure>
 
 !!! success "Installation terminée"
-    Le poste est prêt. Contrôlez-le avec la [liste de vérification finale](../verification/index.md), puis connectez-vous à INDIM@J.
+    Le poste est prêt. Contrôlez-le avec la [liste de vérification finale](../verification/index.md), puis connectez-vous à INDIM@J. Les utilisateurs d'INDIM@J Partenaire se connectent à l'adresse [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }.
 
 !!! info "Documentation INDIM@J"
     La documentation complète du système est disponible dans le [dossier Google Drive de la documentation](https://drive.google.com/drive/folders/16wpMRpNEnHUsIAdGSu--Yr3b4I3sQGaI?usp=drive_link){ target="_blank" }.

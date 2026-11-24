@@ -21,5 +21,8 @@ Cette partie décrit l'installation et la configuration d'un poste de travail po
 
 Une fois l'installation terminée, contrôlez le poste avec la [liste de vérification finale](verification/index.md).
 
+!!! info "Utilisateurs d'INDIM@J Partenaire"
+    L'installation du poste est identique pour **INDIM@J Partenaire**. Seul le lien de connexion diffère : [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
+
 !!! info "Navigateur alternatif : Basilisk"
     INDIM@J fonctionne aussi avec le navigateur **Basilisk (32 bits)**. Firefox 52 ESR reste indispensable pour créer le certificat. Voir l'[étape 3](navigateurs/index.md#etape-3) (facultative).
