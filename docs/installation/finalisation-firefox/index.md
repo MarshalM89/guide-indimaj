@@ -38,7 +38,7 @@
 </figure>
 
 !!! success "Installation terminée"
-    Le poste est prêt. Contrôlez-le avec la [liste de vérification finale](../verification/index.md), puis connectez-vous à INDIM@J. Les utilisateurs d'INDIM@J Partenaire se connectent à l'adresse [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }.
+    Le poste est prêt. Contrôlez-le avec la [liste de vérification finale](../verification/index.md), puis connectez-vous à INDIM@J à l'adresse [https://indimaj.tgr.gov.ma/](https://indimaj.tgr.gov.ma/){ target="_blank" }. Les utilisateurs d'INDIM@J Partenaire se connectent à l'adresse [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }.
 
 !!! info "Documentation INDIM@J"
     La documentation complète du système est disponible dans le [dossier Google Drive de la documentation](https://drive.google.com/drive/folders/16wpMRpNEnHUsIAdGSu--Yr3b4I3sQGaI?usp=drive_link){ target="_blank" }.

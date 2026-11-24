@@ -15,8 +15,9 @@ Cochez chaque point vérifié. Lorsque tous les points sont cochés, le poste es
 - [ ] Les fenêtres popup sont autorisées dans Firefox
 - [ ] https://indimaj.tgr.gov.ma figure dans les exceptions de Firefox (valable aussi pour INDIM@J Partenaire)
 
-!!! info "Utilisateurs d'INDIM@J Partenaire"
-    Connectez-vous à l'adresse [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
+!!! info "Adresses de connexion"
+    - **INDIM@J** : [https://indimaj.tgr.gov.ma/](https://indimaj.tgr.gov.ma/){ target="_blank" }
+    - **INDIM@J Partenaire** : [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
 
 !!! info "Un problème après l'installation ?"
     Consultez la page [Dépannage](../../depannage/index.md), ou contactez [equipe_indimaj@tgr.gov.ma](mailto:equipe_indimaj@tgr.gov.ma). La documentation complète est disponible dans le [dossier Google Drive de la documentation](https://drive.google.com/drive/folders/16wpMRpNEnHUsIAdGSu--Yr3b4I3sQGaI?usp=drive_link){ target="_blank" }.

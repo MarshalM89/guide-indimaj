@@ -15,8 +15,9 @@
 - [ ] النوافذ المنبثقة مسموح بها في Firefox
 - [ ] https://indimaj.tgr.gov.ma ضمن استثناءات Firefox (صالح أيضاً لـ INDIM@J Partenaire)
 
-!!! info "مستعملو INDIM@J Partenaire"
-    ادخل عبر العنوان [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
+!!! info "عناوين الدخول"
+    - **INDIM@J**: [https://indimaj.tgr.gov.ma/](https://indimaj.tgr.gov.ma/){ target="_blank" }
+    - **INDIM@J Partenaire**: [https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR](https://indimaj.tgr.gov.ma/forms/frmservlet?config=INDJPAR){ target="_blank" }
 
 !!! info "مشكل بعد التثبيت؟"
     راجع صفحة [حل المشاكل](../../depannage/index.md)، أو راسل [equipe_indimaj@tgr.gov.ma](mailto:equipe_indimaj@tgr.gov.ma). الوثائق الكاملة متوفرة في [مجلد Google Drive الخاص بالوثائق](https://drive.google.com/drive/folders/16wpMRpNEnHUsIAdGSu--Yr3b4I3sQGaI?usp=drive_link){ target="_blank" }.
